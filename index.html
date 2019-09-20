@@ -6,6 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
+       * {
+           padding: 0;
+           margin: 0;
+       }
       .my-title {
           width: 100%;
           height: 50px;
@@ -15,8 +19,18 @@
           line-height: 50px;
       }
       .com {
+          min-width: 320px;
+          width: 100%;
           text-align: center;
       }
+      @media screen and (min-width: 320px) and (max-width: 500px) {
+            .com img {
+                width: 320px;
+            }
+            .my-title {
+                font-size: 12px;
+            }
+        }
     </style>
 </head>
 <body>
