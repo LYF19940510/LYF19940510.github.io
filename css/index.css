@@ -1,0 +1,54 @@
+body {
+  background-color: peru;
+}
+.my_box {
+  width: 100%;
+}
+.my-title {
+  width: 100%;
+  height: 2.5rem;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-title span {
+  font-size: 1.2rem;
+  color: white;
+}
+.com {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.com .my_msg {
+  width: 8rem;
+}
+.com .my_msg p {
+  margin-bottom: 0.5rem;
+}
+.com .my_photo {
+  width: 8rem;
+}
+.com .my_photo img {
+  width: 100%;
+}
+.kills {
+  width: 100%;
+  padding: 0.5rem;
+}
+.kills .kill_tittle {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: teal ;
+}
+.kills .kill_list {
+  width: 100%;
+  height: 5rem;
+  margin-top: 0.5rem;
+  border: darkseagreen 0.05rem solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
